@@ -21,6 +21,7 @@ export const ContainerList = styled.View`
 export const Title = styled.Text`
   font-size: 22px;
   color: #eee;
+  font-family: 'Nunito_400Regular';
 `;
 
 export const List = styled.FlatList`
@@ -30,6 +31,7 @@ export const List = styled.FlatList`
   border-color: #222;
   width: 90%;
   margin-top: 10px;
+  font-family: 'Archivo_400Regular';
 `;
 
 export const AddButton = styled.TouchableOpacity`
@@ -44,4 +46,5 @@ export const AddButton = styled.TouchableOpacity`
 
 export const AddButtonText = styled.Text`
   color: #fff;
+  font-family: 'Archivo_400Regular';
 `;
